@@ -1,0 +1,7 @@
+train: ../SHD/test
+val: ../SHD/test
+test: ../SHD/test
+
+# Classes
+nc: 8  # number of classes
+names: ['helmet', 'head_with_helmet', 'head', 'person_with_helmet', 'person_no_helmet', 'face', 'not_reflective', 'reflective']  # class names
